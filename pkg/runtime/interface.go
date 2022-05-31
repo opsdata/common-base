@@ -1,4 +1,3 @@
-// Package runtime defines some functions used to encode/decode object.
 package runtime
 
 // Encoder writes objects to a serialized form.
