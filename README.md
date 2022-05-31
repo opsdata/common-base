@@ -1,4 +1,4 @@
-# component-base
+# common-base
 
 Scheme, typing, encoding, decoding, and conversion packages for ELMT and ELMT-like API objects.
 
