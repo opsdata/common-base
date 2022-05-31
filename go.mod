@@ -10,6 +10,7 @@ require (
 	github.com/go-playground/universal-translator v0.18.0
 	github.com/go-playground/validator/v10 v10.11.0
 	github.com/gosuri/uitable v0.0.4
+	github.com/moby/term v0.0.0-20210619224110-3f7ff695adc6
 	github.com/opsdata/errors v0.0.0-20220529233903-2dd7d9106721
 	github.com/sony/sonyflake v1.0.0
 	github.com/speps/go-hashids v2.0.0+incompatible
@@ -19,6 +20,7 @@ require (
 )
 
 require (
+	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/bmizerany/assert v0.0.0-20160611221934-b7ed37b82869 // indirect
 	github.com/fatih/color v1.10.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
