@@ -12,6 +12,7 @@ require (
 	github.com/gosuri/uitable v0.0.4
 	github.com/moby/term v0.0.0-20210619224110-3f7ff695adc6
 	github.com/opsdata/errors v0.0.0-20220529233903-2dd7d9106721
+	github.com/opsdata/log v0.0.0-20220531070631-67f3431d740e
 	github.com/sony/sonyflake v1.0.0
 	github.com/speps/go-hashids v2.0.0+incompatible
 	github.com/spf13/pflag v1.0.5
@@ -30,6 +31,10 @@ require (
 	github.com/mattn/go-isatty v0.0.12 // indirect
 	github.com/mattn/go-runewidth v0.0.10 // indirect
 	github.com/rivo/uniseg v0.1.0 // indirect
+	go.uber.org/atomic v1.7.0 // indirect
+	go.uber.org/multierr v1.6.0 // indirect
+	go.uber.org/zap v1.21.0 // indirect
 	golang.org/x/sys v0.0.0-20210806184541-e5e7981a1069 // indirect
 	golang.org/x/text v0.3.7 // indirect
+	k8s.io/klog v1.0.0 // indirect
 )
