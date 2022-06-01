@@ -43,3 +43,7 @@ func (s *apimachineryClientNegotiatorSerializer) Decode(data []byte, v interface
 func (s *apimachineryClientNegotiatorSerializer) Encode(v interface{}) ([]byte, error) {
 	return json.Marshal(v)
 }
+
+func NewSimpleClientNegotiator() ClientNegotiator {
+	return &apimachineryClientNegotiator{}
+}
