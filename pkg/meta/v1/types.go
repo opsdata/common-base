@@ -60,7 +60,7 @@ type ObjectMeta struct {
 	// - must be unique
 	// - required when creating resources and can not be updated
 	// - be primarily intended for creation idempotence and configuration definition
-	// Name string `json:"name,omitempty" gorm:"column:name;type:varchar(64);not null" validate:"name"`
+	Name string `json:"name,omitempty" gorm:"column:name;type:varchar(64);not null" validate:"name"`
 
 	// Extend
 	// - 类型别名: map[string]interface{}
