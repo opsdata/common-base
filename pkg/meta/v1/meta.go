@@ -19,6 +19,8 @@ type Object interface {
 	SetID(id uint64)
 	GetInstanceID() string
 	SetInstanceID(instance_id string)
+	GetName() string
+	SetName(name string)
 	GetCreatedAt() time.Time
 	SetCreatedAt(createdAt time.Time)
 	GetUpdatedAt() time.Time
@@ -72,6 +74,8 @@ var _ Object = &ObjectMeta{}
 
 func (meta *ObjectMeta) GetID() uint64                    { return meta.ID }
 func (meta *ObjectMeta) SetID(id uint64)                  { meta.ID = id }
+func (meta *ObjectMeta) GetName() string                  { return meta.Name }
+func (meta *ObjectMeta) SetName(name string)              { meta.Name = name }
 func (meta *ObjectMeta) GetInstanceID() string            { return meta.InstanceID }
 func (meta *ObjectMeta) SetInstanceID(instance_id string) { meta.InstanceID = instance_id }
 func (meta *ObjectMeta) GetCreatedAt() time.Time          { return meta.CreatedAt }
